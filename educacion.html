@@ -15,10 +15,10 @@
 		<strong>
     	<a href="index.html">Inicio</a> |
         <a href="educacion.html">Educación</a> |
-        <a href="/experiencia.html">Experiencia</a>
+        <a href="experiencia.html">Experiencia</a>
         </strong>
 		<i><h2>Educación</h2></i>
-	<table width="45%" border="1" cellpadding="2" cellspacing="1" id="Educa">
+	<table width="45%" border="1" cellpadding="2" cellspacing="1" id="educacion">
     	<thead>
         <tr>
         	<th>Año</th>
@@ -49,40 +49,63 @@
         </tbody>
 	</table>
 	<h2>Agregar Estudios</h2>
-    	<form action="" name="formulario">
-        	<label for="Año">Año:</label>
-				<select name="Año">
-					<option value="1">2018</option>
-					<option value="1">2017</option>
-					<option value="1">2016</option>
-					<option value="1">2015</option>
-					<option value="1">2014</option>
-					<option value="1">2013</option>                
-					<option value="1">2012</option>
-					<option value="1">2011</option>
-					<option value="1">2010</option>
-	                <option value="1">2009</option>
-    	            <option value="1">2008</option>
-        	        <option value="1">2007</option>
-            	    <option value="1">2006</option>
-                	<option value="1">2005</option>
-	                <option value="1">2004</option>
-    	            <option value="1">2003</option>
-        	        <option value="1">2002</option>
-            	    <option value="1">2001</option>
-                	<option value="1">2000</option>
-				</select>
-           <label for="institucion"><br>Institución:</label>
-            		<input type="text" name="institucion" placeholder="Nombre de la institución" required>
-                	<br><textarea name"areatexto" form="formulario" required>
-        </form> 
+    <table id="estudios">
+    <thead>
+    	<tr>
+			<td>        
+		        <form action="" name="formulario">
+        			<strong><label for="Año">Año:</label></strong>
+						<select name="Año" required>
+						<option value="1">2018</option>
+						<option value="1">2017</option>
+						<option value="1">2016</option>
+						<option value="1">2015</option>
+						<option value="1">2014</option>
+						<option value="1">2013</option>                
+						<option value="1">2012</option>
+						<option value="1">2011</option>
+						<option value="1">2010</option>
+	                	<option value="1">2009</option>
+    	            	<option value="1">2008</option>
+        	        	<option value="1">2007</option>
+            	    	<option value="1">2006</option>
+                		<option value="1">2005</option>
+	                	<option value="1">2004</option>
+    	            	<option value="1">2003</option>
+        	        	<option value="1">2002</option>
+            	    	<option value="1">2001</option>
+                		<option value="1">2000</option>
+					</select>
+        </thead>
+		<tbody>
+        <tr>
+            <td>
+            	<strong><label for="institucion">Institución:</label></strong>.
+            		<input type="text" size="50" name="institucion" form="formalario" required/ placeholder="Nombre de la institución"><br>
+		</tr>
+        <tr>
+            <td>
+           	  <label for="lugar"><strong>Lugar:</strong></label>
+              		<textarea name="lugar" nowrap rows="5" cols="56" required id="lugar" form="formulario" areatexto="areatexto">					</textarea>
+		</tr>
+        <tr>
+        	<td>
+            <label for="culminacion"><strong>Culminó:</strong></label>
+				<input type="radio" name="genre"> ¿Sí?
+				<input type="radio" name="genre"> ¿No?
+            </td>
+        <tr>
+        	<td>
+            <input type="submit" value="Enviar">     
+	</table>
+	</form>
 </body>             	
 <footer>
 <i><h2>Información de contacto</h2></i>
 	<p>Móvil: +(502) 4912-9842
     <p>
-	<a href="mailto:gerardo.ceballos.gt@gmail.com"><img src="images/email.svg" width="50" alt="Vínculo a correo electrónico"></a>
-    <a href="https://www.facebook.com/gerardonono" target="_blank"><img src="images/fb.svg" width="50" alt="Vínculo a Facebook"></a>
-    <a href="https://www.linkedin.com/in/gerardo-rené-ceballos-muñoz-75492a2a/" target="_blank"><img src="images/linkedin.svg" width="50" alt="Vínculo a Linkedin"></a>
+	<a href="mailto:gerardo.ceballos.gt@gmail.com"><img src="images/email.svg" width="40" alt="Vínculo a correo electrónico"></a>
+    <a href="https://www.facebook.com/gerardonono" target="_blank"><img src="images/fb.svg" width="40" alt="Vínculo a Facebook"></a>
+    <a href="https://www.linkedin.com/in/gerardo-rené-ceballos-muñoz-75492a2a/" target="_blank"><img src="images/linkedin.svg" width="40" alt="Vínculo a Linkedin"></a>
 </footer>
 </html>
