@@ -48,10 +48,9 @@
         </tr>
         </tbody>
 	</table>
-	<h2>Agregar Estudios</h2>
-    <table id="estudios">
-    <thead>
-    	<tr>
+	<i><h2>Agregar Estudios</h2></i>
+    <table border="0	" cellpadding="1" cellspacing="1">
+      	<tr>
 			<td>        
 		        <form action="" name="formulario">
         			<strong><label for="Año">Año:</label></strong>
@@ -76,17 +75,15 @@
             	    	<option value="1">2001</option>
                 		<option value="1">2000</option>
 					</select>
-        </thead>
-		<tbody>
         <tr>
             <td>
-            	<strong><label for="institucion">Institución:</label></strong>.
-            		<input type="text" size="50" name="institucion" form="formalario" required/ placeholder="Nombre de la institución"><br>
-		</tr>
+            	<strong><label for="institucion">Institución:</label></strong>
+            		<input type="text" size="50" name="institucion" form="formulario" placeholder="Nombre de la institución" required>
+        </tr>
         <tr>
-            <td>
-           	  <label for="lugar"><strong>Lugar:</strong></label>
-              		<textarea name="lugar" nowrap rows="5" cols="56" required id="lugar" form="formulario" areatexto="areatexto">					</textarea>
+        	<td valign="top">
+           	 <strong><label for="lugar">Lugar:</label></strong>
+             <textarea name="lugar" rows="2" cols="56" id="lugar" form="formulario" placeholder="Nombre del lugar" required></textarea>
 		</tr>
         <tr>
         	<td>
@@ -96,8 +93,8 @@
             </td>
         <tr>
         	<td>
-            <input type="submit" value="Enviar">     
-	</table>
+            <input type="submit" value="Enviar">
+    </table>
 	</form>
 </body>             	
 <footer>
